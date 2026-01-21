@@ -1,0 +1,7 @@
+{
+  "name": "Shoaib Latif Portfolio",
+  "description": "A professional portfolio for a Full-stack Digital Marketer featuring services, portfolio, blog, and contact sections.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
