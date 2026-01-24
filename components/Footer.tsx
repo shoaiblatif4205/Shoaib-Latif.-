@@ -14,11 +14,13 @@ const Footer: React.FC = () => {
           <p className="text-gray-400 leading-relaxed">
             Full-stack Digital Marketer specialized in driving scalable growth through data-driven SEO, PPC, and paid social strategies.
           </p>
-          <div className="flex space-x-4">
+          <div className="flex flex-wrap gap-4">
             {SOCIAL_LINKS.map((social) => (
               <a 
                 key={social.name} 
                 href={social.url} 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gray-800 p-2 rounded-full hover:bg-blue-600 transition-colors"
                 aria-label={social.name}
               >
@@ -52,20 +54,30 @@ const Footer: React.FC = () => {
           </ul>
         </div>
 
-        {/* Contact Info */}
+        {/* Contact Info Box */}
         <div className="space-y-4">
           <h4 className="text-lg font-bold mb-6">Contact Info</h4>
-          <div className="flex items-start space-x-3 group">
-            <Phone size={20} className="text-blue-500 mt-1" />
-            <span className="text-gray-400 group-hover:text-white transition-colors">+92 322 6807500</span>
-          </div>
-          <div className="flex items-start space-x-3 group">
-            <Mail size={20} className="text-blue-500 mt-1" />
-            <span className="text-gray-400 group-hover:text-white transition-colors">shoaiblatifofficial42@gmail.com</span>
-          </div>
-          <div className="flex items-start space-x-3 group">
-            <MapPin size={20} className="text-blue-500 mt-1" />
-            <span className="text-gray-400 group-hover:text-white transition-colors">Lahore, Pakistan</span>
+          <div className="border-2 border-blue-500/30 p-6 rounded-2xl space-y-5 bg-blue-500/5">
+            <div className="flex items-center space-x-4 group">
+              <div className="text-blue-500">
+                <Phone size={20} />
+              </div>
+              <span className="text-gray-300 group-hover:text-white transition-colors text-sm md:text-base">+92 322 6807500</span>
+            </div>
+            <div className="flex items-center space-x-4 group">
+              <div className="text-blue-500">
+                <Mail size={20} />
+              </div>
+              <a href="mailto:shoaiblatifofficial42@gmail.com" className="text-gray-300 group-hover:text-white transition-colors text-sm md:text-base truncate">
+                shoaiblatifofficial42@gmail.com
+              </a>
+            </div>
+            <div className="flex items-center space-x-4 group">
+              <div className="text-blue-500">
+                <MapPin size={20} />
+              </div>
+              <span className="text-gray-300 group-hover:text-white transition-colors text-sm md:text-base">Lahore, Pakistan</span>
+            </div>
           </div>
         </div>
       </div>

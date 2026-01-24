@@ -35,12 +35,12 @@ const Home: React.FC = () => {
                 Hello, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-indigo-600">Shoaib Latif</span>
               </h1>
               <p className="mt-6 text-xl text-gray-600 max-w-lg leading-relaxed">
-                I help businesses scale by combining creative content strategies with technical SEO and data-driven advertising.
+                I am a Full Stack Digital Marketing Specialist with expertise in SEO, social media, PPC, and content strategy. I help brands grow online and achieve measurable results.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="/resume.pdf" 
+                href="file:///C:/Users/user/Downloads/Shoaib%20Latif%20Digital%20Marketing%20Specialist%20(1).pdf" 
                 download
                 className="flex items-center justify-center bg-[#161f30] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-all shadow-lg transform hover:-translate-y-1"
               >
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
           <div className="relative flex justify-center">
             <div className="absolute -z-10 w-[400px] h-[400px] bg-blue-100 rounded-full blur-3xl opacity-50 animate-pulse"></div>
             <img 
-              src="https://picsum.photos/seed/shoaib/600/600" 
+              src="https://scontent.fisb6-2.fna.fbcdn.net/v/t39.30808-6/495207559_1084996856782947_3437940849129927582_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEuT8EsUxZnWs3b5UcEAAHgn5uwAytsUnafm7ADK2xSdsNX8mJ-Y8vt-ciFNV8yq6xxe_UN-oeZ9XexfbE4UwID&_nc_ohc=lJYQv42AI78Q7kNvwFj8Dfe&_nc_oc=AdmaK8wVlJM3Dye1Zh_VKl6wXsngntuq0HPX2CtwdDUs9zoZVHHYcWzR4yS_ybh7gejaE4OulIKc78v0blfxuqge&_nc_zt=23&_nc_ht=scontent.fisb6-2.fna&_nc_gid=sm-r0XKLi8rVsy6PhWNXgw&oh=00_Afp-oiWzGMluZTbLKoH4XtwsfqTp4oqDqz1gFZOxTDZTNg&oe=69786ED0" 
               alt="Shoaib Latif" 
               className="rounded-3xl shadow-2xl w-full max-w-md object-cover transform hover:scale-105 transition-transform duration-500 border-8 border-white"
             />

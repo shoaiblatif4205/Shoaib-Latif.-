@@ -1,17 +1,9 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import { ExternalLink, Search } from 'lucide-react';
 import { PROJECTS } from '../constants';
 
 const Portfolio: React.FC = () => {
-  const [filter, setFilter] = useState('All');
-  
-  const categories = ['All', ...Array.from(new Set(PROJECTS.map(p => p.category)))];
-  
-  const filteredProjects = filter === 'All' 
-    ? PROJECTS 
-    : PROJECTS.filter(p => p.category === filter);
-
   return (
     <div className="pt-32 pb-24">
       <div className="container mx-auto px-4 md:px-8">
@@ -22,26 +14,9 @@ const Portfolio: React.FC = () => {
           </p>
         </div>
 
-        {/* Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
-          {categories.map((cat) => (
-            <button
-              key={cat}
-              onClick={() => setFilter(cat)}
-              className={`px-6 py-2 rounded-full font-bold transition-all border-2 ${
-                filter === cat 
-                  ? 'bg-[#161f30] text-white border-[#161f30]' 
-                  : 'bg-white text-[#161f30] border-gray-100 hover:border-blue-300'
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
-
-        {/* Project Grid */}
+        {/* Project Grid - Now displays all projects directly without filters */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {filteredProjects.map((project) => (
+          {PROJECTS.map((project) => (
             <div key={project.id} className="group bg-white rounded-3xl overflow-hidden shadow-lg border border-gray-50 hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="relative h-64 overflow-hidden">
                 <img src={project.image} alt={project.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700" />
