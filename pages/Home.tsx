@@ -57,7 +57,7 @@ const Home: React.FC = () => {
           <div className="relative flex justify-center">
             <div className="absolute -z-10 w-[400px] h-[400px] bg-blue-100 rounded-full blur-3xl opacity-50 animate-pulse"></div>
             <img 
-              src="https://scontent.fisb6-2.fna.fbcdn.net/v/t39.30808-6/495207559_1084996856782947_3437940849129927582_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEuT8EsUxZnWs3b5UcEAAHgn5uwAytsUnafm7ADK2xSdsNX8mJ-Y8vt-ciFNV8yq6xxe_UN-oeZ9XexfbE4UwID&_nc_ohc=lJYQv42AI78Q7kNvwFj8Dfe&_nc_oc=AdmaK8wVlJM3Dye1Zh_VKl6wXsngntuq0HPX2CtwdDUs9zoZVHHYcWzR4yS_ybh7gejaE4OulIKc78v0blfxuqge&_nc_zt=23&_nc_ht=scontent.fisb6-2.fna&_nc_gid=sm-r0XKLi8rVsy6PhWNXgw&oh=00_Afp-oiWzGMluZTbLKoH4XtwsfqTp4oqDqz1gFZOxTDZTNg&oe=69786ED0" 
+              src="https://scontent.flhe6-1.fna.fbcdn.net/v/t39.30808-1/495207559_1084996856782947_3437940849129927582_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=106&ccb=1-7&_nc_sid=2d3e12&_nc_ohc=IJLkVJVcO2oQ7kNvwEmKt2J&_nc_oc=AdmWrsQZg4LxHqz_OcVXWW5GV5Xrcks0XBQdpzZyL13f_jrCGBuozp-QeNWz-3clxB0&_nc_zt=24&_nc_ht=scontent.flhe6-1.fna&_nc_gid=jitsbn2p4-yUJ7xuVVMOsw&oh=00_Afp2idGxDX90pWJxuyyy-gaWksIxgQKI8hnmInEgoqef3g&oe=69814CCE" 
               alt="Shoaib Latif" 
               className="rounded-3xl shadow-2xl w-full max-w-md object-cover transform hover:scale-105 transition-transform duration-500 border-8 border-white"
             />
