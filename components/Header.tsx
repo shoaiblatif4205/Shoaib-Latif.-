@@ -43,7 +43,7 @@ const Header: React.FC = () => {
             </Link>
           ))}
           <a
-            href="file:///C:/Users/user/Downloads/Shoaib%20Latif%20Digital%20Marketing%20Specialist%20(1).pdf"
+            href="https://image2url.com/r2/default/documents/1770147568923-6636bf01-034f-4db5-8f33-bb685a37de89.pdf"
             download
             className="flex items-center bg-[#161f30] text-white px-5 py-2 rounded-full font-semibold hover:bg-blue-700 transition-all transform hover:scale-105"
           >

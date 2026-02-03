@@ -40,7 +40,7 @@ const Home: React.FC = () => {
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
               <a 
-                href="file:///C:/Users/user/Downloads/Shoaib%20Latif%20Digital%20Marketing%20Specialist%20(1).pdf" 
+                href="https://image2url.com/r2/default/documents/1770147568923-6636bf01-034f-4db5-8f33-bb685a37de89.pdf" 
                 download
                 className="flex items-center justify-center bg-[#161f30] text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-blue-700 transition-all shadow-lg transform hover:-translate-y-1"
               >
