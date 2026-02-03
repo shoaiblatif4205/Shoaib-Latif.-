@@ -11,7 +11,7 @@ const About: React.FC = () => {
           <div className="relative group">
             <div className="absolute -inset-4 bg-blue-100 rounded-[2rem] -rotate-3 group-hover:rotate-0 transition-transform duration-500"></div>
             <img 
-              src="https://scontent.fisb6-2.fna.fbcdn.net/v/t39.30808-6/495207559_1084996856782947_3437940849129927582_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEuT8EsUxZnWs3b5UcEAAHgn5uwAytsUnafm7ADK2xSdsNX8mJ-Y8vt-ciFNV8yq6xxe_UN-oeZ9XexfbE4UwID&_nc_ohc=lJYQv42AI78Q7kNvwFj8Dfe&_nc_oc=AdmaK8wVlJM3Dye1Zh_VKl6wXsngntuq0HPX2CtwdDUs9zoZVHHYcWzR4yS_ybh7gejaE4OulIKc78v0blfxuqge&_nc_zt=23&_nc_ht=scontent.fisb6-2.fna&_nc_gid=sm-r0XKLi8rVsy6PhWNXgw&oh=00_Afp-oiWzGMluZTbLKoH4XtwsfqTp4oqDqz1gFZOxTDZTNg&oe=69786ED0" 
+              src="https://image2url.com/r2/default/images/1770144517276-afc838c3-b263-4c61-9b2c-24cbf6cef3e0.jpg" 
               alt="Shoaib Latif" 
               className="relative z-10 rounded-2xl shadow-2xl w-full object-cover"
             />
